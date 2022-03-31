@@ -1,10 +1,7 @@
 import '@glif/base-css'
 import App from 'next/app'
 import Head from 'next/head'
-import {
-  theme,
-  ThemeProvider
-} from '@glif/react-components'
+import { theme, ThemeProvider } from '@glif/react-components'
 
 import ErrorBoundary from '../components/ErrorBoundary'
 
@@ -29,14 +26,14 @@ class MyApp extends App {
           <meta property='og:description' content={description} />
           <meta property='og:image' content={image} />
           <meta property='og:url' content={url} />
-          
+
           <meta name='twitter:title' content={title} />
           <meta name='twitter:description' content={description} />
           <meta name='twitter:image' content={image} />
           <meta name='twitter:image:alt' content={description} />
           <meta name='twitter:card' content='summary_large_image' />
           <meta name='twitter:creator' content='@glifio' key='twhandle' />
-          
+
           <link
             rel='icon'
             type='image/png'

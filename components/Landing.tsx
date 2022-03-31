@@ -21,16 +21,23 @@ export default function Landing() {
         <LandingPageContent>
           <h2>Hello,</h2>
           <p>
-            I am the Glif API Node - a publicly available hosted endpoint of Lotus (the most popular client for the Filecoin network). Feel free to make a POST request against this URL using the JSON-RPC model to check it out. You can find the list of available RPC requests at the bottom of this page. Please note that a publicly available hosted endpoint guarantees only 2000 of the latest blocks.
+            I am the Glif API Node - a publicly available hosted endpoint of
+            Lotus (the most popular client for the Filecoin network). Feel free
+            to make a POST request against this URL using the JSON-RPC model to
+            check it out. You can find the list of available RPC requests at the
+            bottom of this page. Please note that a publicly available hosted
+            endpoint guarantees only 2000 of the latest blocks.
           </p>
           <p>
-            If this version does not suit your needs or you want to get a dedicated node, feel free to fill this form:
+            If this version does not suit your needs or you want to get a
+            dedicated node, feel free to fill this form:
             <SmartLink href='https://forms.gle/9GiWdgem25urvys68'>
               https://forms.gle/9GiWdgem25urvys68
             </SmartLink>
           </p>
           <p>
-            If you have any questions, suggestions, feedback or any ideas how to improve our service, you are welcome to join our slack channel.
+            If you have any questions, suggestions, feedback or any ideas how to
+            improve our service, you are welcome to join our slack channel.
           </p>
         </LandingPageContent>
       </LandingPageColumns>
