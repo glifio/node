@@ -2,13 +2,14 @@ import {
   AppTile,
   LandingPageColumns,
   LandingPageContent,
-  Page,
   SmartLink
 } from '@glif/react-components'
 
+import NodePage from './NodePage'
+
 export default function Landing() {
   return (
-    <Page hideAppHeader>
+    <NodePage>
       <LandingPageColumns>
         <AppTile
           title='Node'
@@ -26,11 +27,11 @@ export default function Landing() {
             to make a POST request against this URL using the JSON-RPC model to
             check it out. You can find the list of available RPC requests at the
             bottom of this page. Please note that a publicly available hosted
-            endpoint guarantees only 2000 of the latest blocks.
+            endpoint guarantees <b>only 2000 of the latest blocks.</b>
           </p>
           <p>
             If this version does not suit your needs or you want to get a
-            dedicated node, feel free to fill this form:
+            dedicated node, feel free to fill this form:{' '}
             <SmartLink href='https://forms.gle/9GiWdgem25urvys68'>
               https://forms.gle/9GiWdgem25urvys68
             </SmartLink>
@@ -41,6 +42,6 @@ export default function Landing() {
           </p>
         </LandingPageContent>
       </LandingPageColumns>
-    </Page>
+    </NodePage>
   )
 }
