@@ -6,10 +6,11 @@ import {
 } from '@glif/react-components'
 
 import NodePage from './NodePage'
+import Documentation from './Documentation'
 
 export default function Landing() {
   return (
-    <NodePage>
+    <NodePage preFooter={<Documentation />}>
       <LandingPageColumns>
         <AppTile
           title='Node'
