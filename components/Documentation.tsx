@@ -1,31 +1,30 @@
 import {
-  Box,
+  FullWidthButtons,
   OneColumn,
   TwoColumns,
   ButtonV2,
-  SmartLink,
-  space
+  SmartLink
 } from '@glif/react-components'
 
 export default function Documentation() {
   return (
     <TwoColumns>
       <OneColumn>
-        <Box display='flex' mb='3em' flexDirection='column' gridGap={space()}>
+        <FullWidthButtons>
           <span>You can check my current status on:</span>
           <ButtonV2 onClick={() => {}}>Lotus API status</ButtonV2>
-        </Box>
+        </FullWidthButtons>
 
-        <Box display='flex' mb='3em' flexDirection='column' gridGap={space()}>
+        <FullWidthButtons>
           <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
           <ButtonV2 onClick={() => {}}>api.node.glif.io - v0</ButtonV2>
           <ButtonV2 onClick={() => {}}>api.node.glif.io/rpc/v0 - v0</ButtonV2>
           <ButtonV2 onClick={() => {}}>
             api.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2>
-        </Box>
+        </FullWidthButtons>
 
-        <Box display='flex' mb='3em' flexDirection='column' gridGap={space()}>
+        <FullWidthButtons>
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
           </span>
@@ -35,9 +34,9 @@ export default function Documentation() {
           <ButtonV2 onClick={() => {}}>
             dev.node.glif.io/calibrationapi/lotus/rpc/v1 - v1 (unstable)
           </ButtonV2>
-        </Box>
+        </FullWidthButtons>
 
-        <Box display='flex' mb='3em' flexDirection='column' gridGap={space()}>
+        <FullWidthButtons>
           <span>Repositories:</span>
           <ButtonV2 onClick={() => {}}>Lotus repository</ButtonV2>
           <ButtonV2 onClick={() => {}}>
@@ -46,15 +45,15 @@ export default function Documentation() {
           <ButtonV2 onClick={() => {}}>
             Charts to deploy Lotus to the Kubernetes
           </ButtonV2>
-        </Box>
+        </FullWidthButtons>
 
-        <Box display='flex' mb='3em' flexDirection='column' gridGap={space()}>
+        <FullWidthButtons>
           <span>Other services:</span>
           <ButtonV2 onClick={() => {}}>CID Checker</ButtonV2>
           <ButtonV2 onClick={() => {}}>
             Open-rpc playground for Lotus API
           </ButtonV2>
-        </Box>
+        </FullWidthButtons>
       </OneColumn>
       <OneColumn>
         <h2>Available API request methods</h2>
