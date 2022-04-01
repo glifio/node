@@ -1,5 +1,7 @@
 import {
   FullWidthButtons,
+  InfoBox,
+  WarningBox,
   OneColumn,
   TwoColumns,
   ButtonV2,
@@ -10,6 +12,11 @@ export default function Documentation() {
   return (
     <TwoColumns>
       <OneColumn>
+        <InfoBox>
+          Glif Nodes are managed by{' '}
+          <SmartLink href='https://protofire.io/'>Protofire.io</SmartLink>
+        </InfoBox>
+
         <FullWidthButtons>
           <span>You can check my current status on:</span>
           <ButtonV2 onClick={() => {}}>Lotus API status</ButtonV2>
@@ -55,8 +62,20 @@ export default function Documentation() {
           </ButtonV2>
         </FullWidthButtons>
       </OneColumn>
+
       <OneColumn>
+        <WarningBox>
+          Before going to Available API request methods, please, consider that{' '}
+          <b>Filecoin.StateMarketDeals</b> operation data is available as a
+          direct link to AWS s3. StateMarketDeals data is refreshing every 10
+          minutes:{' '}
+          <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
+            https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
+          </SmartLink>
+        </WarningBox>
+
         <h2>Available API request methods</h2>
+
         <p>
           <SmartLink href=''>Filecoin.ActorAddress</SmartLink>
           <br />
