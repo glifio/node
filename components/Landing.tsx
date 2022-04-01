@@ -1,12 +1,23 @@
+import styled from 'styled-components'
 import {
   AppTile,
+  ButtonV2,
+  FullWidthButtons,
   LandingPageColumns,
   LandingPageContent,
-  SmartLink
+  SmartLink,
+  devices
 } from '@glif/react-components'
 
 import NodePage from './NodePage'
 import Documentation from './Documentation'
+
+const DocumentationButton = styled(FullWidthButtons)`
+  display: none;
+  @media (min-width: ${devices.tablet}) {
+    display: flex;
+  }
+`
 
 export default function Landing() {
   return (
@@ -41,6 +52,16 @@ export default function Landing() {
             If you have any questions, suggestions, feedback or any ideas how to
             improve our service, you are welcome to join our slack channel.
           </p>
+          <DocumentationButton>
+            <ButtonV2
+              large
+              onClick={() =>
+                window.scroll({ top: window.innerHeight, behavior: 'smooth' })
+              }
+            >
+              Check out the documenation
+            </ButtonV2>
+          </DocumentationButton>
         </LandingPageContent>
       </LandingPageColumns>
     </NodePage>
