@@ -5,8 +5,8 @@ import { theme, ThemeProvider } from '@glif/react-components'
 
 import ErrorBoundary from '../components/ErrorBoundary'
 
-const title = 'GLIF Node'
-const description = 'A publicly available hosted endpoint of Lotus'
+const title = 'GLIF Nodes'
+const description = 'Hosted Filecoin Nodes'
 const keywords = 'Filecoin,Lotus,API,Web,Storage,Blockchain,Crypto,FIL'
 const image = '/bg-node.jpg'
 const url = 'https://node.glif.link'

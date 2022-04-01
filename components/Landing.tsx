@@ -48,10 +48,7 @@ export default function Landing() {
               https://forms.gle/9GiWdgem25urvys68
             </SmartLink>
           </p>
-          <p>
-            If you have any questions, suggestions, feedback or any ideas how to
-            improve our service, you are welcome to join our slack channel.
-          </p>
+
           <DocumentationButton>
             <ButtonV2
               large

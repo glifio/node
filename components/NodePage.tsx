@@ -6,6 +6,18 @@ export default function NodePage({ children, ...rest }: PageProps) {
       appIcon={<NodeIconHeaderFooter />}
       appHeaderLinks={[
         {
+          title: 'Wallet',
+          url: process.env.NEXT_PUBLIC_WALLET_URL
+        },
+        {
+          title: 'Safe',
+          url: process.env.NEXT_PUBLIC_SAFE_URL
+        },
+        {
+          title: 'Explorer',
+          url: process.env.NEXT_PUBLIC_EXPLORER_URL
+        },
+        {
           title: 'Blog',
           url: 'https://glif.io/blog'
         },
@@ -14,8 +26,8 @@ export default function NodePage({ children, ...rest }: PageProps) {
           url: 'https://github.com/glifio'
         },
         {
-          title: 'Nodes',
-          url: 'https://lotus.filecoin.io/docs/developers/hosted-lotus'
+          title: 'Discord',
+          url: 'https://discord.gg/B9ju5Eu4Rq'
         }
       ]}
       {...rest}

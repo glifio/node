@@ -14,13 +14,11 @@
     "test:watch": "jest --watch",
     "export": "next build && next export",
     "serve": "npx serve ./out",
-    "store-ipfs": "npx @glif/deployment-cli ipfs ./out $WEB3_STORAGE_TOKEN",
-    "publish:calibration": "wrangler publish --env calibration",
-    "publish:mainnet": "wrangler publish --env mainnet"
+    "store-ipfs": "npx @glif/deployment-cli ipfs ./out $WEB3_STORAGE_TOKEN"
   },
   "dependencies": {
     "@glif/base-css": "^0.0.11",
-    "@glif/react-components": "^2.0.0-alpha.59",
+    "@glif/react-components": "^2.0.0-alpha.62",
     "next": "^12.1.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
