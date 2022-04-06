@@ -9,15 +9,10 @@ import {
 } from '@glif/react-components'
 import styled from 'styled-components'
 
-const TitleWithLinkSubtitle = styled.span`
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+const TitleWithSubtitle = styled.div`
+  margin-bottom: 1.75em;
   > h2 {
-    margin-bottom: 0;
-  }
-  > a {
-    margin-bottom: 1em;
+    margin-bottom: 0.25em;
   }
 `
 
@@ -97,12 +92,12 @@ export default function Documentation() {
           </SmartLink>
         </WarningBox>
 
-        <TitleWithLinkSubtitle>
+        <TitleWithSubtitle>
           <h2>Available API request methods</h2>
           <SmartLink href='https://lotus.filecoin.io/developers/apis/json-rpc/'>
             See Lotus JSON-RPC API documentation
           </SmartLink>
-        </TitleWithLinkSubtitle>
+        </TitleWithSubtitle>
 
         <p>Filecoin.ActorAddress</p>
         <p>Filecoin.ActorAddressConfig</p>
