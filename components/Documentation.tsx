@@ -4,10 +4,9 @@ import {
   WarningBox,
   OneColumn,
   TwoColumns,
-  ButtonV2,
+  ButtonV2Link,
   SmartLink
 } from '@glif/react-components'
-import { useRouter } from 'next/router'
 import styled from 'styled-components'
 
 const TitleWithLinkSubtitle = styled.span`
@@ -23,7 +22,6 @@ const TitleWithLinkSubtitle = styled.span`
 `
 
 export default function Documentation() {
-  const router = useRouter()
   return (
     <TwoColumns>
       <OneColumn>
@@ -34,91 +32,57 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>You can check my current status on:</span>
-          <ButtonV2 onClick={() => router.push('https://status.node.glif.io/')}>
+          <ButtonV2Link href='https://status.node.glif.io/'>
             Lotus API status
-          </ButtonV2>
+          </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
           <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
-          <ButtonV2 onClick={() => router.push('https://api.node.glif.io')}>
+          <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v0
-          </ButtonV2>
-          <ButtonV2
-            onClick={() => router.push('https://api.node.glif.io/rpc/v0')}
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.node.glif.io/rpc/v0'>
             api.node.glif.io/rpc/v0 - v0
-          </ButtonV2>
-          <ButtonV2
-            onClick={() => router.push('https://api.node.glif.io/rpc/v1')}
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.node.glif.io/rpc/v1'>
             api.node.glif.io/rpc/v1 - v1 (unstable)
-          </ButtonV2>
+          </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
           </span>
-          <ButtonV2
-            onClick={() =>
-              router.push(
-                'https://dev.node.glif.io/calibrationapi/lotus/rpc/v0'
-              )
-            }
-          >
+          <ButtonV2Link href='https://dev.node.glif.io/calibrationapi/lotus/rpc/v0'>
             dev.node.glif.io/calibrationapi/lotus/rpc/v0 - v0
-          </ButtonV2>
-          <ButtonV2
-            onClick={() =>
-              router.push(
-                'https://dev.node.glif.io/calibrationapi/lotus/rpc/v1'
-              )
-            }
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://dev.node.glif.io/calibrationapi/lotus/rpc/v1'>
             dev.node.glif.io/calibrationapi/lotus/rpc/v1 - v1 (unstable)
-          </ButtonV2>
+          </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
           <span>Repositories:</span>
-          <ButtonV2
-            onClick={() =>
-              router.push('https://github.com/filecoin-project/lotus')
-            }
-          >
+          <ButtonV2Link href='https://github.com/filecoin-project/lotus'>
             Lotus repository
-          </ButtonV2>
-          <ButtonV2
-            onClick={() =>
-              router.push('https://github.com/glifio/filecoin-docker')
-            }
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://github.com/glifio/filecoin-docker'>
             Lotus in docker repo and image published on the Dockerhub
-          </ButtonV2>
-          <ButtonV2
-            onClick={() =>
-              router.push('https://github.com/glifio/filecoin-chart')
-            }
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://github.com/glifio/filecoin-chart'>
             Charts to deploy Lotus to Kubernetes
-          </ButtonV2>
+          </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
           <span>Other services:</span>
-          <ButtonV2 onClick={() => router.push('https://filecoin.tools/')}>
+          <ButtonV2Link href='https://filecoin.tools/'>
             CID Checker
-          </ButtonV2>
-          <ButtonV2
-            onClick={() =>
-              router.push(
-                'https://playground.open-rpc.org/?schemaUrl=https://gist.githubusercontent.com/openworklabbot/44dd022c3214a17deeebf142613fb363/raw/lotus-api.json'
-              )
-            }
-          >
+          </ButtonV2Link>
+          <ButtonV2Link href='https://playground.open-rpc.org/?schemaUrl=https://gist.githubusercontent.com/openworklabbot/44dd022c3214a17deeebf142613fb363/raw/lotus-api.json'>
             Open-rpc playground for Lotus API
-          </ButtonV2>
+          </ButtonV2Link>
         </FullWidthButtons>
       </OneColumn>
 
@@ -132,6 +96,7 @@ export default function Documentation() {
             https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
           </SmartLink>
         </WarningBox>
+
         <TitleWithLinkSubtitle>
           <h2>Available API request methods</h2>
           <SmartLink href='https://lotus.filecoin.io/developers/apis/json-rpc/'>
