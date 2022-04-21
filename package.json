@@ -19,8 +19,8 @@
     "publish:mainnet": "wrangler publish --env mainnet"
   },
   "dependencies": {
-    "@glif/base-css": "^0.0.11",
-    "@glif/react-components": "^2.0.0-alpha.62",
+    "@glif/base-css": "^0.0.18",
+    "@glif/react-components": "^2.0.0-alpha.68",
     "next": "^12.1.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
