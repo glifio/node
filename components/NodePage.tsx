@@ -19,7 +19,7 @@ export default function NodePage({ children, ...rest }: PageProps) {
         },
         {
           title: 'Blog',
-          url: 'https://glif.io/blog'
+          url: process.env.NEXT_PUBLIC_BLOG_URL
         },
         {
           title: 'Code',

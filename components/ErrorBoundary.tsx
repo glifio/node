@@ -1,19 +1,21 @@
-import React from 'react'
+import { Component } from 'react'
 import { ErrorView, OneColumnCentered } from '@glif/react-components'
 import { logger } from '../logger'
 import NodePage from './NodePage'
+import { ReactNodeLike } from 'prop-types'
 
-interface ErrorState {
+type ErrorState = {
   hasError: boolean
+}
+
+type ErrorProps = {
+  children: ReactNodeLike
 }
 
 // This component catches all uncaught react and syncronous JS errors
 // and forwards the user to an error page + sends us the error report
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { hasError: false } as ErrorState
-  }
+class ErrorBoundary extends Component<ErrorProps, ErrorState> {
+  state: ErrorState = { hasError: false }
 
   static getDerivedStateFromError() {
     return { hasError: true }
