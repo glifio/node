@@ -33,6 +33,13 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
+          <span>If you need help with me, drop a message to my team:</span>
+          <ButtonV2Link href='https://filecoinproject.slack.com/archives/C017HM9BJ8Z'>
+            Slack Channel
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
           <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v0
@@ -49,11 +56,14 @@ export default function Documentation() {
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
           </span>
-          <ButtonV2Link href='https://dev.node.glif.io/calibrationapi/lotus/rpc/v0'>
-            dev.node.glif.io/calibrationapi/lotus/rpc/v0 - v0
+          <ButtonV2Link href='https://calibration.node.glif.io'>
+            calibration.node.glif.io - v0
           </ButtonV2Link>
-          <ButtonV2Link href='https://dev.node.glif.io/calibrationapi/lotus/rpc/v1'>
-            dev.node.glif.io/calibrationapi/lotus/rpc/v1 - v1 (unstable)
+          <ButtonV2Link href='https://calibration.node.glif.io/rpc/v0'>
+            calibration.node.glif.io/rpc/v0
+          </ButtonV2Link>
+          <ButtonV2Link href='https://calibration.node.glif.io/rpc/v1'>
+            calibration.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -90,6 +100,18 @@ export default function Documentation() {
           <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
             https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
           </SmartLink>
+        </WarningBox>
+
+        <WarningBox>
+          Please, don&lsquo;t forget to add{' '}
+          <b>Content-Type: application/json</b> header to your request or
+          I&lsquo;ll give you <b>415 Unsupported Media Type error</b>
+        </WarningBox>
+
+        <WarningBox>
+          And the last side note:
+          <b> respect my 30 seconds timeout on request</b> or I&lsquo;ll throw
+          out you <b>504 Endpoint request timed out error</b>
         </WarningBox>
 
         <TitleWithSubtitle>
@@ -172,9 +194,13 @@ export default function Documentation() {
         <p>Filecoin.NetBlockList</p>
         <p>Filecoin.NetConnectedness</p>
         <p>Filecoin.NetFindPeer</p>
+        <p>Filecoin.NetLimit</p>
         <p>Filecoin.NetPeerInfo</p>
         <p>Filecoin.NetPeers</p>
+        <p>Filecoin.NetPing</p>
+        <p>Filecoin.NetProtectList</p>
         <p>Filecoin.NetPubsubScores</p>
+        <p>Filecoin.NetStat</p>
         <p>Filecoin.NodeStatus</p>
         <p>Filecoin.PaychList</p>
         <p>Filecoin.PaychStatus</p>
@@ -194,6 +220,7 @@ export default function Documentation() {
         <p>Filecoin.SectorsSummary</p>
         <p>Filecoin.Session</p>
         <p>Filecoin.StateAccountKey</p>
+        <p>Filecoin.StateActorCodeCIDs</p>
         <p>Filecoin.StateAllMinerFaults</p>
         <p>Filecoin.StateCall</p>
         <p>Filecoin.StateChangedActors</p>
@@ -203,6 +230,8 @@ export default function Documentation() {
         <p>Filecoin.StateDecodeParams</p>
         <p>Filecoin.StateEncodeParams</p>
         <p>Filecoin.StateGetActor</p>
+        <p>Filecoin.StateGetBeaconEntry</p>
+        <p>Filecoin.StateGetNetworkParams</p>
         <p>Filecoin.StateGetRandomnessFromBeacon</p>
         <p>Filecoin.StateGetRandomnessFromTickets</p>
         <p>Filecoin.StateGetReceipt</p>
@@ -210,6 +239,7 @@ export default function Documentation() {
         <p>Filecoin.StateListMessages</p>
         <p>Filecoin.StateListMiners</p>
         <p>Filecoin.StateLookupID</p>
+        <p>Filecoin.StateLookupRobustAddress</p>
         <p>Filecoin.StateMarketBalance</p>
         <p>Filecoin.StateMarketParticipants</p>
         <p>Filecoin.StateMarketStorageDeal</p>
@@ -237,10 +267,10 @@ export default function Documentation() {
         <p>Filecoin.StateSectorGetInfo</p>
         <p>Filecoin.StateSectorPartition</p>
         <p>Filecoin.StateSectorPreCommitInfo</p>
-        <p>Filecoin.StateVMCirculatingSupplyInternal</p>
         <p>Filecoin.StateVerifiedClientStatus</p>
         <p>Filecoin.StateVerifiedRegistryRootKey</p>
         <p>Filecoin.StateVerifierStatus</p>
+        <p>Filecoin.StateVMCirculatingSupplyInternal</p>
         <p>Filecoin.StateWaitMsg</p>
         <p>Filecoin.StateWaitMsgLimited</p>
         <p>Filecoin.SyncCheckBad</p>
@@ -251,6 +281,7 @@ export default function Documentation() {
         <p>Filecoin.WalletBalance</p>
         <p>Filecoin.WalletValidateAddress</p>
         <p>Filecoin.WalletVerify</p>
+        <p>rpc.discover</p>
       </OneColumn>
     </TwoColumns>
   )
