@@ -31,14 +31,6 @@ export default function Documentation() {
             Lotus API status
           </ButtonV2Link>
         </FullWidthButtons>
-
-        <FullWidthButtons>
-          <span>If you need help with me, drop a message to my team:</span>
-          <ButtonV2Link href='https://filecoinproject.slack.com/archives/C017HM9BJ8Z'>
-            Slack Channel
-          </ButtonV2Link>
-        </FullWidthButtons>
-
         <FullWidthButtons>
           <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
@@ -102,24 +94,18 @@ export default function Documentation() {
           </SmartLink>
         </WarningBox>
 
-        <WarningBox>
-          Please, don&lsquo;t forget to add{' '}
-          <b>Content-Type: application/json</b> header to your request or
-          I&lsquo;ll give you <b>415 Unsupported Media Type error</b>
-        </WarningBox>
-
-        <WarningBox>
-          And the last side note:
-          <b> respect my 30 seconds timeout on request</b> or I&lsquo;ll throw
-          out you <b>504 Endpoint request timed out error</b>
-        </WarningBox>
-
         <TitleWithSubtitle>
           <h2>Available API request methods</h2>
           <SmartLink href='https://lotus.filecoin.io/developers/apis/json-rpc/'>
             See Lotus JSON-RPC API documentation
           </SmartLink>
         </TitleWithSubtitle>
+
+        <InfoBox>
+          All JSON-RPC requests must include the header:
+          <br />
+          <b>&quot;Content-Type&quot;: &quot;application/json&quot;</b>
+        </InfoBox>
 
         <p>Filecoin.ActorAddress</p>
         <p>Filecoin.ActorAddressConfig</p>
