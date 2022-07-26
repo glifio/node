@@ -48,14 +48,14 @@ export default function Documentation() {
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
           </span>
-          <ButtonV2Link href='https://calibration.node.glif.io'>
-            calibration.node.glif.io - v0
+          <ButtonV2Link href='https://api.calibration.node.glif.io'>
+            api.calibration.node.glif.io - v0
           </ButtonV2Link>
-          <ButtonV2Link href='https://calibration.node.glif.io/rpc/v0'>
-            calibration.node.glif.io/rpc/v0
+          <ButtonV2Link href='https://api.calibration.node.glif.io/rpc/v0'>
+            api.calibration.node.glif.io/rpc/v0 -v0
           </ButtonV2Link>
-          <ButtonV2Link href='https://calibration.node.glif.io/rpc/v1'>
-            calibration.node.glif.io/rpc/v1 - v1 (unstable)
+          <ButtonV2Link href='https://api.calibration.node.glif.io/rpc/v1'>
+            api.calibration.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
