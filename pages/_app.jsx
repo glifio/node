@@ -1,9 +1,12 @@
 import '@glif/base-css'
 import App from 'next/app'
 import Head from 'next/head'
-import { theme, ThemeProvider } from '@glif/react-components'
-
-import ErrorBoundary from '../components/ErrorBoundary'
+import {
+  EnvironmentProvider,
+  theme,
+  ThemeProvider,
+  ErrorBoundary
+} from '@glif/react-components'
 
 const title = 'GLIF Nodes'
 const description = 'Hosted Filecoin Nodes'
@@ -47,11 +50,24 @@ class MyApp extends App {
             href='/static/favicon-32x32.png'
           />
         </Head>
-        <ThemeProvider theme={theme}>
-          <ErrorBoundary>
-            <Component {...pageProps} />
-          </ErrorBoundary>
-        </ThemeProvider>
+        <EnvironmentProvider
+          homeUrl={process.env.NEXT_PUBLIC_HOME_URL}
+          blogUrl={process.env.NEXT_PUBLIC_BLOG_URL}
+          walletUrl={process.env.NEXT_PUBLIC_WALLET_URL}
+          safeUrl={process.env.NEXT_PUBLIC_SAFE_URL}
+          explorerUrl={process.env.NEXT_PUBLIC_EXPLORER_URL}
+          verifierUrl={process.env.NEXT_PUBLIC_VERIFIER_URL}
+          nodeStatusApiUrl='https://api.uptimerobot.com/v2/getMonitors'
+          isProd={false}
+          sentryDsn={process.env.NEXT_PUBLIC_SENTRY_DSN}
+          sentryEnv={process.env.NEXT_PUBLIC_SENTRY_ENV}
+        >
+          <ThemeProvider theme={theme}>
+            <ErrorBoundary>
+              <Component {...pageProps} />
+            </ErrorBoundary>
+          </ThemeProvider>
+        </EnvironmentProvider>
       </>
     )
   }
