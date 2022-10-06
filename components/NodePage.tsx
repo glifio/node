@@ -1,9 +1,9 @@
-import { Page, PageProps, NodeIconHeaderFooter } from '@glif/react-components'
+import { Page, PageProps, IconNode } from '@glif/react-components'
 
 export default function NodePage({ children, ...rest }: PageProps) {
   return (
     <Page
-      appIcon={<NodeIconHeaderFooter />}
+      appIcon={<IconNode />}
       appHeaderLinks={[
         {
           title: 'Wallet',
