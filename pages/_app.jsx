@@ -1,12 +1,7 @@
 import '@glif/base-css'
 import App from 'next/app'
 import Head from 'next/head'
-import {
-  EnvironmentProvider,
-  theme,
-  ThemeProvider,
-  ErrorBoundary
-} from '@glif/react-components'
+import { EnvironmentProvider, ErrorBoundary } from '@glif/react-components'
 
 const title = 'GLIF Nodes'
 const description = 'Hosted Filecoin Nodes'
@@ -62,11 +57,9 @@ class MyApp extends App {
           sentryDsn={process.env.NEXT_PUBLIC_SENTRY_DSN}
           sentryEnv={process.env.NEXT_PUBLIC_SENTRY_ENV}
         >
-          <ThemeProvider theme={theme}>
-            <ErrorBoundary>
-              <Component {...pageProps} />
-            </ErrorBoundary>
-          </ThemeProvider>
+          <ErrorBoundary>
+            <Component {...pageProps} />
+          </ErrorBoundary>
         </EnvironmentProvider>
       </>
     )
