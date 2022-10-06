@@ -32,6 +32,29 @@ export default function Documentation() {
           </ButtonV2Link>
         </FullWidthButtons>
         <FullWidthButtons>
+          <span>Repositories:</span>
+          <ButtonV2Link href='https://github.com/filecoin-project/lotus'>
+            Lotus repository
+          </ButtonV2Link>
+          <ButtonV2Link href='https://github.com/glifio/filecoin-docker'>
+            Lotus in docker repo and image published on the Dockerhub
+          </ButtonV2Link>
+          <ButtonV2Link href='https://github.com/glifio/filecoin-chart'>
+            Charts to deploy Lotus to Kubernetes
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
+          <span>Other services:</span>
+          <ButtonV2Link href='https://filecoin.tools/'>
+            CID Checker
+          </ButtonV2Link>
+          <ButtonV2Link href='https://playground.open-rpc.org/?schemaUrl=https://gist.githubusercontent.com/openworklabbot/44dd022c3214a17deeebf142613fb363/raw/lotus-api.json'>
+            Open-rpc playground for Lotus API
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
           <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v0
@@ -60,27 +83,47 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Repositories:</span>
-          <ButtonV2Link href='https://github.com/filecoin-project/lotus'>
-            Lotus repository
+          <span>
+            Lotus API Gateway versions for Filecoin&lsquo;s Wallaby🦘 network:
+          </span>
+          <ButtonV2Link href='https://wallaby.node.glif.io'>
+            wallaby.node.glif.io - v0
           </ButtonV2Link>
-          <ButtonV2Link href='https://github.com/glifio/filecoin-docker'>
-            Lotus in docker repo and image published on the Dockerhub
+          <ButtonV2Link href='https://wallaby.node.glif.io/rpc/v0'>
+            wallaby.node.glif.io/rpc/v0 -v0
           </ButtonV2Link>
-          <ButtonV2Link href='https://github.com/glifio/filecoin-chart'>
-            Charts to deploy Lotus to Kubernetes
+          <ButtonV2Link href='https://wallaby.node.glif.io/rpc/v1'>
+            wallaby.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
-        <FullWidthButtons>
-          <span>Other services:</span>
-          <ButtonV2Link href='https://filecoin.tools/'>
-            CID Checker
-          </ButtonV2Link>
-          <ButtonV2Link href='https://playground.open-rpc.org/?schemaUrl=https://gist.githubusercontent.com/openworklabbot/44dd022c3214a17deeebf142613fb363/raw/lotus-api.json'>
-            Open-rpc playground for Lotus API
-          </ButtonV2Link>
-        </FullWidthButtons>
+        <TitleWithSubtitle>
+          <h2>Available Ethereum API request methods for Wallaby🦘 endpoint</h2>
+          <SmartLink href='https://github.com/filecoin-project/ref-fvm/issues/854'>
+            See Lotus Ethereum JSON-RPC API documentation
+          </SmartLink>
+        </TitleWithSubtitle>
+        <p>eth_accounts</p>
+        <p>eth_blockNumber</p>
+        <p>eth_getBlockByNumber</p>
+        <p>eth_getTransactionByHash</p>
+        <p>eth_getTransactionCount</p>
+        <p>eth_getTransactionReceipt</p>
+        <p>eth_getBalance</p>
+        <p>eth_gasPrice</p>
+        <p>eth_chainId</p>
+        <p>eth_getBlockTransactionCountByNumber</p>
+        <p>net_version</p>
+        <p>net_listening</p>
+        <p>eth_protocolVersion</p>
+        <p>eth_maxPriorityFeePerGas</p>
+        <p>eth_getBlockByHash</p>
+        <p>eth_getBlockTransactionCountByHash</p>
+        <p>eth_getCode</p>
+        <p>eth_getStorageAt</p>
+        <p>eth_sendRawTransaction</p>
+        <p>eth_call</p>
+        <p>eth_estimateGas</p>
       </OneColumn>
 
       <OneColumn>
