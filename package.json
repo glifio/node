@@ -16,7 +16,8 @@
     "serve": "npx serve ./out",
     "store-ipfs": "npx @glif/deployment-cli ipfs ./out $WEB3_STORAGE_TOKEN",
     "publish:calibration": "wrangler publish --env calibration",
-    "publish:mainnet": "wrangler publish --env mainnet"
+    "publish:mainnet": "wrangler publish --env mainnet",
+    "update-react-components": "jest -u"
   },
   "dependencies": {
     "@glif/base-css": "^0.0.33",
