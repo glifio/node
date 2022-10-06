@@ -1,6 +1,13 @@
 name: tests
 
-on: [pull_request, push]
+on:
+  push:
+    branches: [primary]
+  workflow_run:
+    workflows: ['update react components']
+    types:
+      - completed
+  pull_request:
 
 jobs:
   test:

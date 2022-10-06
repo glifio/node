@@ -10,6 +10,10 @@ env:
 on:
   push:
     branches: [primary]
+  workflow_run:
+    workflows: ['tests']
+    types:
+      - completed
   workflow_dispatch:
 
 concurrency:
