@@ -39,6 +39,7 @@ jobs:
 
       - name: Update snapshots
         run: npm run update-react-components
+        continue-on-error: true
 
       - name: Create Pull Request
         if: always()
