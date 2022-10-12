@@ -68,6 +68,13 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
+          <span>Lotus Gateway endpoint for Filecoin&lsquo;s Mainnet</span>
+          <ButtonV2Link href='wss://wss.node.glif.io/apigw/lotus/rpc/v0'>
+            wss://wss.node.glif.io/apigw/lotus/rpc/v0
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
           </span>
@@ -83,6 +90,13 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
+          <span>Lotus Gateway endpoint for Filecoin&lsquo;s Calibration</span>
+          <ButtonV2Link href='wss://wss.calibration.node.glif.io'>
+            wss://wss.calibration.node.glif.io
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
           <span>
             Lotus API Gateway versions for Filecoin&lsquo;s Wallaby🦘 network:
           </span>
@@ -94,6 +108,13 @@ export default function Documentation() {
           </ButtonV2Link>
           <ButtonV2Link href='https://wallaby.node.glif.io/rpc/v1'>
             wallaby.node.glif.io/rpc/v1 - v1 (unstable)
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
+          <span>Lotus Gateway endpoint for Wallaby🦘</span>
+          <ButtonV2Link href='wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0'>
+            wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -127,6 +148,13 @@ export default function Documentation() {
       </OneColumn>
 
       <OneColumn>
+        <TitleWithSubtitle>
+          <h2>Available Lotus Gateway API request methods</h2>
+          <SmartLink href='https://github.com/filecoin-project/lotus/blob/master/gateway/node.go#L45-L91'>
+            See Lotus Gateway API documentation
+          </SmartLink>
+        </TitleWithSubtitle>
+
         <WarningBox>
           Before going to Available API request methods, please, consider that{' '}
           <b>Filecoin.StateMarketDeals</b> operation data is available as a
