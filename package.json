@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@glif/base-css": "^0.0.33",
-    "@glif/react-components": "^2.0.0",
+    "@glif/react-components": "^2.0.6",
     "next": "^12.2.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
