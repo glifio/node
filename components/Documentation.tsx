@@ -7,14 +7,7 @@ import {
   ButtonV2Link,
   SmartLink
 } from '@glif/react-components'
-import styled from 'styled-components'
-
-const TitleWithSubtitle = styled.div`
-  margin-bottom: 1.75em;
-  > h2 {
-    margin-bottom: 0.25em;
-  }
-`
+import { TitleWithSubtitle } from './Helpers'
 
 export default function Documentation() {
   return (
@@ -117,34 +110,6 @@ export default function Documentation() {
             wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
         </FullWidthButtons>
-
-        <TitleWithSubtitle>
-          <h2>Available Ethereum API request methods for Wallaby🦘 endpoint</h2>
-          <SmartLink href='https://github.com/filecoin-project/ref-fvm/issues/854'>
-            See Lotus Ethereum JSON-RPC API documentation
-          </SmartLink>
-        </TitleWithSubtitle>
-        <p>eth_accounts</p>
-        <p>eth_blockNumber</p>
-        <p>eth_getBlockByNumber</p>
-        <p>eth_getTransactionByHash</p>
-        <p>eth_getTransactionCount</p>
-        <p>eth_getTransactionReceipt</p>
-        <p>eth_getBalance</p>
-        <p>eth_gasPrice</p>
-        <p>eth_chainId</p>
-        <p>eth_getBlockTransactionCountByNumber</p>
-        <p>net_version</p>
-        <p>net_listening</p>
-        <p>eth_protocolVersion</p>
-        <p>eth_maxPriorityFeePerGas</p>
-        <p>eth_getBlockByHash</p>
-        <p>eth_getBlockTransactionCountByHash</p>
-        <p>eth_getCode</p>
-        <p>eth_getStorageAt</p>
-        <p>eth_sendRawTransaction</p>
-        <p>eth_call</p>
-        <p>eth_estimateGas</p>
       </OneColumn>
 
       <OneColumn>
