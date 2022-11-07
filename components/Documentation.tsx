@@ -143,9 +143,6 @@ export default function Documentation() {
           <b>&quot;Content-Type&quot;: &quot;application/json&quot;</b>
         </InfoBox>
 
-        <p>Filecoin.ActorAddress</p>
-        <p>Filecoin.ActorAddressConfig</p>
-        <p>Filecoin.ActorSectorSize</p>
         <p>Filecoin.AuthVerify</p>
         <p>Filecoin.BeaconGetEntry</p>
         <p>Filecoin.ChainBlockstoreInfo</p>
@@ -178,22 +175,13 @@ export default function Documentation() {
         <p>Filecoin.ClientMinerQueryOffer</p>
         <p>Filecoin.ClientQueryAsk</p>
         <p>Filecoin.Closing</p>
-        <p>Filecoin.ComputeProof</p>
-        <p>Filecoin.DagstoreListShards</p>
         <p>Filecoin.Discover</p>
         <p>Filecoin.GasEstimateFeeCap</p>
         <p>Filecoin.GasEstimateGasLimit</p>
         <p>Filecoin.GasEstimateGasPremium</p>
         <p>Filecoin.GasEstimateMessageGas</p>
         <p>Filecoin.ID</p>
-        <p>Filecoin.MarketGetAsk</p>
-        <p>Filecoin.MarketGetDealUpdates</p>
-        <p>Filecoin.MarketGetRetrievalAsk</p>
-        <p>Filecoin.MarketListDeals</p>
-        <p>Filecoin.MarketListIncompleteDeals</p>
-        <p>Filecoin.MarketListRetrievalDeals</p>
         <p>Filecoin.MinerGetBaseInfo</p>
-        <p>Filecoin.MiningBase</p>
         <p>Filecoin.MpoolCheckMessages</p>
         <p>Filecoin.MpoolCheckPendingMessages</p>
         <p>Filecoin.MpoolCheckReplaceMessages</p>
@@ -228,18 +216,6 @@ export default function Documentation() {
         <p>Filecoin.PaychStatus</p>
         <p>Filecoin.PaychVoucherCheckSpendable</p>
         <p>Filecoin.PaychVoucherCheckValid</p>
-        <p>Filecoin.PiecesGetCIDInfo</p>
-        <p>Filecoin.PiecesGetPieceInfo</p>
-        <p>Filecoin.PiecesListCidInfos</p>
-        <p>Filecoin.PiecesListPieces</p>
-        <p>Filecoin.RuntimeSubsystems</p>
-        <p>Filecoin.SectorGetExpectedSealDuration</p>
-        <p>Filecoin.SectorGetSealDelay</p>
-        <p>Filecoin.SectorsList</p>
-        <p>Filecoin.SectorsListInStates</p>
-        <p>Filecoin.SectorsRefs</p>
-        <p>Filecoin.SectorsStatus</p>
-        <p>Filecoin.SectorsSummary</p>
         <p>Filecoin.Session</p>
         <p>Filecoin.StateAccountKey</p>
         <p>Filecoin.StateActorCodeCIDs</p>
