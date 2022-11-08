@@ -2,7 +2,7 @@ import {
   ButtonV2Link,
   InfoBox,
   FullWidthButtons,
-  LandingPageColumns,
+  TwoColumns,
   OneColumn,
   SmartLink
 } from '@glif/react-components'
@@ -12,7 +12,7 @@ import NodePage from './NodePage'
 export function EthRPC() {
   return (
     <NodePage>
-      <LandingPageColumns>
+      <TwoColumns>
         <OneColumn>
           <InfoBox>
             The FEVM is coming soon to the Filecoin network!
@@ -65,7 +65,7 @@ export function EthRPC() {
           <p>eth_call</p>
           <p>eth_estimateGas</p>
         </OneColumn>
-      </LandingPageColumns>
+      </TwoColumns>
     </NodePage>
   )
 }
