@@ -1,11 +1,12 @@
 import {
   ButtonV2Link,
   InfoBox,
+  FullWidthButtons,
   LandingPageColumns,
   OneColumn,
   SmartLink
 } from '@glif/react-components'
-import { DocumentationButton, TitleWithSubtitle } from './Helpers'
+import { TitleWithSubtitle } from './Helpers'
 import NodePage from './NodePage'
 
 export function EthRPC() {
@@ -27,11 +28,11 @@ export function EthRPC() {
             The planned FEVM Mainnet launch is February 2023, but the Wallaby
             Testnet currently supports the FEVM.
           </InfoBox>
-          <DocumentationButton>
+          <FullWidthButtons>
             <ButtonV2Link large href='/'>
               Back to the docs
             </ButtonV2Link>
-          </DocumentationButton>
+          </FullWidthButtons>
         </OneColumn>
         <OneColumn>
           <TitleWithSubtitle>

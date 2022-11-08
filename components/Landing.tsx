@@ -1,6 +1,7 @@
 import {
   AppTile,
   ButtonV2,
+  FullWidthButtons,
   LandingPageColumns,
   LandingPageContent,
   SmartLink,
@@ -10,7 +11,7 @@ import {
 
 import NodePage from './NodePage'
 import Documentation from './Documentation'
-import { DocumentationButton } from './Helpers'
+import { ButtonBadgeWrapper, ButtonsHiddenOnMobile } from './Helpers'
 
 export function Landing() {
   return (
@@ -41,8 +42,7 @@ export function Landing() {
               https://forms.gle/9GiWdgem25urvys68
             </SmartLink>
           </p>
-
-          <DocumentationButton>
+          <ButtonsHiddenOnMobile>
             <ButtonV2
               large
               onClick={() =>
@@ -51,13 +51,15 @@ export function Landing() {
             >
               Check out the documenation
             </ButtonV2>
-          </DocumentationButton>
-          <Badge color='purple' text='Brand new' />
-          <DocumentationButton withBadge>
+          </ButtonsHiddenOnMobile>
+          <FullWidthButtons>
+            <ButtonBadgeWrapper>
+              <Badge color='purple' text='Brand new' />
+            </ButtonBadgeWrapper>
             <ButtonV2Link large href='/eth-rpc'>
               Ethereum JSON RPC Support on the Wallaby testnet
             </ButtonV2Link>
-          </DocumentationButton>
+          </FullWidthButtons>
         </LandingPageContent>
       </LandingPageColumns>
     </NodePage>

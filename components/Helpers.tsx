@@ -1,14 +1,16 @@
 import styled from 'styled-components'
-import { FullWidthButtons, Spaces, devices } from '@glif/react-components'
+import { FullWidthButtons, devices } from '@glif/react-components'
 
-export const DocumentationButton = styled(FullWidthButtons)`
+export const ButtonsHiddenOnMobile = styled(FullWidthButtons)`
   display: none;
-
-  ${(props) => props.withBadge && `margin-top: ${Spaces.MEDIUM};`}
-
   @media (min-width: ${devices.tablet}) {
     display: flex;
   }
+`
+
+export const ButtonBadgeWrapper = styled.div`
+  display: flex;
+  justify-content: center;
 `
 
 export const TitleWithSubtitle = styled.div`
