@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import {
   AppTile,
   ButtonV2,
@@ -6,20 +5,15 @@ import {
   LandingPageColumns,
   LandingPageContent,
   SmartLink,
-  devices
+  Badge,
+  ButtonV2Link
 } from '@glif/react-components'
 
 import NodePage from './NodePage'
 import Documentation from './Documentation'
+import { ButtonBadgeWrapper, ButtonsHiddenOnMobile } from './Helpers'
 
-const DocumentationButton = styled(FullWidthButtons)`
-  display: none;
-  @media (min-width: ${devices.tablet}) {
-    display: flex;
-  }
-`
-
-export default function Landing() {
+export function Landing() {
   return (
     <NodePage preFooter={<Documentation />}>
       <LandingPageColumns>
@@ -48,8 +42,7 @@ export default function Landing() {
               https://forms.gle/9GiWdgem25urvys68
             </SmartLink>
           </p>
-
-          <DocumentationButton>
+          <ButtonsHiddenOnMobile>
             <ButtonV2
               large
               onClick={() =>
@@ -58,7 +51,15 @@ export default function Landing() {
             >
               Check out the documenation
             </ButtonV2>
-          </DocumentationButton>
+          </ButtonsHiddenOnMobile>
+          <FullWidthButtons>
+            <ButtonBadgeWrapper>
+              <Badge color='purple' text='Brand new' />
+            </ButtonBadgeWrapper>
+            <ButtonV2Link large href='/eth-rpc'>
+              Ethereum JSON RPC Support on the Wallaby testnet
+            </ButtonV2Link>
+          </FullWidthButtons>
         </LandingPageContent>
       </LandingPageColumns>
     </NodePage>
