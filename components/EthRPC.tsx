@@ -44,26 +44,49 @@ export function EthRPC() {
             </SmartLink>
           </TitleWithSubtitle>
           <p>eth_accounts</p>
+          <p>Filecoin.EthAccounts</p>
           <p>eth_blockNumber</p>
+          <p>Filecoin.EthBlockNumber</p>
+          <p>eth_feeHistory</p>
+          <p>Filecoin.EthFeeHistory</p>
           <p>eth_getBlockByNumber</p>
+          <p>Filecoin.EthGetBlockByNumber</p>
           <p>eth_getTransactionByHash</p>
+          <p>Filecoin.EthGetTransactionByHash</p>
           <p>eth_getTransactionCount</p>
+          <p>Filecoin.EthGetTransactionCount</p>
           <p>eth_getTransactionReceipt</p>
+          <p>Filecoin.EthGetTransactionReceipt</p>
           <p>eth_getBalance</p>
+          <p>Filecoin.EthGetBalance</p>
           <p>eth_gasPrice</p>
+          <p>Filecoin.EthGasPrice</p>
           <p>eth_chainId</p>
+          <p>Filecoin.EthChainId</p>
           <p>eth_getBlockTransactionCountByNumber</p>
+          <p>Filecoin.EthGetBlockTransactionCountByNumber</p>
           <p>net_version</p>
+          <p>Filecoin.NetVersion</p>
           <p>net_listening</p>
+          <p>Filecoin.NetListening</p>
           <p>eth_protocolVersion</p>
+          <p>Filecoin.EthProtocolVersion</p>
           <p>eth_maxPriorityFeePerGas</p>
+          <p>Filecoin.EthMaxPriorityFeePerGas</p>
           <p>eth_getBlockByHash</p>
+          <p>Filecoin.EthGetBlockByHash</p>
           <p>eth_getBlockTransactionCountByHash</p>
+          <p>Filecoin.EthGetBlockTransactionCountByHash</p>
           <p>eth_getCode</p>
+          <p>Filecoin.EthGetCode</p>
           <p>eth_getStorageAt</p>
+          <p>Filecoin.EthGetStorageAt</p>
           <p>eth_sendRawTransaction</p>
+          <p>Filecoin.EthSendRawTransaction</p>
           <p>eth_call</p>
+          <p>Filecoin.EthCall</p>
           <p>eth_estimateGas</p>
+          <p>Filecoin.EthEstimateGas</p>
         </OneColumn>
       </TwoColumns>
     </NodePage>
