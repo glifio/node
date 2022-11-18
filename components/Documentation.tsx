@@ -38,17 +38,31 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Other services:</span>
-          <ButtonV2Link href='https://filecoin.tools/'>
-            CID Checker
+          <span>Open-rpc playground links for Lotus API:</span>
+          <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.node.glif.io'>
+            Mainnet
           </ButtonV2Link>
-          <ButtonV2Link href='https://playground.open-rpc.org/?schemaUrl=https://gist.githubusercontent.com/openworklabbot/44dd022c3214a17deeebf142613fb363/raw/lotus-api.json'>
-            Open-rpc playground for Lotus API
+          <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.calibration.node.glif.io'>
+            Calibration
+          </ButtonV2Link>
+          <ButtonV2Link href='https://playground.open-rpc.org/?url=https://wallaby.node.glif.io'>
+            Wallaby
           </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus API Gateway versions for Filecoin&lsquo;s Mainnet:</span>
+          <span>CID checkers links:</span>
+          <ButtonV2Link href='https://filecoin.tools/'>Mainnet</ButtonV2Link>
+          <ButtonV2Link href='https://calibration.filecoin.tools/'>
+            Calibration
+          </ButtonV2Link>
+          <ButtonV2Link href='http://wallaby.filecoin.tools/'>
+            Wallaby
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
+          <span>Lotus AWS API Gateway versions for Filecoin Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v0
           </ButtonV2Link>
@@ -61,7 +75,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Filecoin&lsquo;s Mainnet</span>
+          <span>Lotus Gateway endpoint for Filecoin Mainnet</span>
           <ButtonV2Link href='wss://wss.node.glif.io/apigw/lotus/rpc/v0'>
             wss://wss.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
@@ -69,7 +83,7 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>
-            Lotus API Gateway versions for Filecoin&lsquo;s Calibration network:
+            Lotus API AWS Gateway versions for Filecoin Calibration network:
           </span>
           <ButtonV2Link href='https://api.calibration.node.glif.io'>
             api.calibration.node.glif.io - v0
@@ -83,7 +97,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Filecoin&lsquo;s Calibration</span>
+          <span>Lotus Gateway endpoint for Filecoin Calibration</span>
           <ButtonV2Link href='wss://wss.calibration.node.glif.io'>
             wss://wss.calibration.node.glif.io
           </ButtonV2Link>
@@ -91,7 +105,7 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>
-            Lotus API Gateway versions for Filecoin&lsquo;s Wallaby🦘 network:
+            Lotus AWS API Gateway versions for Filecoin Wallaby🦘 network:
           </span>
           <ButtonV2Link href='https://wallaby.node.glif.io'>
             wallaby.node.glif.io - v0
