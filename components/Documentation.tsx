@@ -140,7 +140,13 @@ export default function Documentation() {
           direct link to AWS s3. StateMarketDeals data is refreshing every 10
           minutes:{' '}
           <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
-            https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
+            Mainnet: https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
+          </SmartLink>
+          <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json'>
+            Calibration: https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json
+          </SmartLink>
+          <SmartLink href='https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json'>
+            Wallaby: https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json
           </SmartLink>
         </WarningBox>
 
