@@ -149,7 +149,7 @@ export default function Documentation() {
             Wallaby: https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json
           </SmartLink>
         </WarningBox>
-        
+
         <WarningBox>
           Method <b>Filecoin.StateListMessages</b> is temporarily banned due to being harmful to the nodes.
           <SmartLink href='https://github.com/filecoin-project/lotus/issues/9728'>
