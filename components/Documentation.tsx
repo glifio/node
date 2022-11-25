@@ -140,20 +140,21 @@ export default function Documentation() {
           direct link to AWS s3. StateMarketDeals data is refreshing every 10
           minutes:{' '}
           <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
-            Mainnet: https://marketdeals.s3.amazonaws.com/StateMarketDeals.json
+            Mainnet
           </SmartLink>
           <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json'>
-            Calibration: https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json
+            Calibration
           </SmartLink>
           <SmartLink href='https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json'>
-            Wallaby: https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json
+            Wallaby
           </SmartLink>
         </WarningBox>
 
         <WarningBox>
-          Method <b>Filecoin.StateListMessages</b> is temporarily banned due to being harmful to the nodes.
+          Method <b>Filecoin.StateListMessages</b> is temporarily banned due to
+          being harmful to the nodes.
           <SmartLink href='https://github.com/filecoin-project/lotus/issues/9728'>
-            See the dedicated issue: https://github.com/filecoin-project/lotus/issues/9728
+            See the dedicated issue
           </SmartLink>
         </WarningBox>
 
