@@ -176,6 +176,7 @@ export default function Documentation() {
         <p>Filecoin.ChainExport</p>
         <p>Filecoin.ChainGetBlock</p>
         <p>Filecoin.ChainGetBlockMessages</p>
+        <p>Filecoin.ChainGetEvents</p>
         <p>Filecoin.ChainGetGenesis</p>
         <p>Filecoin.ChainGetMessage</p>
         <p>Filecoin.ChainGetMessagesInTipset</p>
@@ -232,43 +233,56 @@ export default function Documentation() {
         <p>Filecoin.NetConnectedness</p>
         <p>Filecoin.NetFindPeer</p>
         <p>Filecoin.NetLimit</p>
+        <p>Filecoin.NetListening</p>
         <p>Filecoin.NetPeerInfo</p>
         <p>Filecoin.NetPeers</p>
         <p>Filecoin.NetPing</p>
         <p>Filecoin.NetProtectList</p>
         <p>Filecoin.NetPubsubScores</p>
         <p>Filecoin.NetStat</p>
+        <p>Filecoin.NetVersion</p>
         <p>Filecoin.NodeStatus</p>
         <p>Filecoin.PaychList</p>
         <p>Filecoin.PaychStatus</p>
         <p>Filecoin.PaychVoucherCheckSpendable</p>
         <p>Filecoin.PaychVoucherCheckValid</p>
+        <p>Filecoin.SectorNumAssignerMeta</p>
+        <p>Filecoin.SectorNumReservations</p>
         <p>Filecoin.Session</p>
+        <p>Filecoin.StartTime</p>
         <p>Filecoin.StateAccountKey</p>
         <p>Filecoin.StateActorCodeCIDs</p>
+        <p>Filecoin.StateActorManifestCID</p>
         <p>Filecoin.StateAllMinerFaults</p>
         <p>Filecoin.StateCall</p>
         <p>Filecoin.StateChangedActors</p>
         <p>Filecoin.StateCirculatingSupply</p>
         <p>Filecoin.StateCompute</p>
+        <p>Filecoin.StateComputeDataCID</p>
         <p>Filecoin.StateDealProviderCollateralBounds</p>
         <p>Filecoin.StateDecodeParams</p>
         <p>Filecoin.StateEncodeParams</p>
         <p>Filecoin.StateGetActor</p>
+        <p>Filecoin.StateGetAllocation</p>
+        <p>Filecoin.StateGetAllocationForPendingDeal</p>
+        <p>Filecoin.StateGetAllocations</p>
         <p>Filecoin.StateGetBeaconEntry</p>
+        <p>Filecoin.StateGetClaim</p>
+        <p>Filecoin.StateGetClaims</p>
         <p>Filecoin.StateGetNetworkParams</p>
         <p>Filecoin.StateGetRandomnessFromBeacon</p>
         <p>Filecoin.StateGetRandomnessFromTickets</p>
         <p>Filecoin.StateGetReceipt</p>
         <p>Filecoin.StateListActors</p>
-        <p>Filecoin.StateListMessages</p>
         <p>Filecoin.StateListMiners</p>
         <p>Filecoin.StateLookupID</p>
         <p>Filecoin.StateLookupRobustAddress</p>
         <p>Filecoin.StateMarketBalance</p>
+        <p>Filecoin.StateMarketDeals</p>
         <p>Filecoin.StateMarketParticipants</p>
         <p>Filecoin.StateMarketStorageDeal</p>
         <p>Filecoin.StateMinerActiveSectors</p>
+        <p>Filecoin.StateMinerAllocated</p>
         <p>Filecoin.StateMinerAvailableBalance</p>
         <p>Filecoin.StateMinerDeadlines</p>
         <p>Filecoin.StateMinerFaults</p>
@@ -292,12 +306,13 @@ export default function Documentation() {
         <p>Filecoin.StateSectorGetInfo</p>
         <p>Filecoin.StateSectorPartition</p>
         <p>Filecoin.StateSectorPreCommitInfo</p>
+        <p>Filecoin.StateVMCirculatingSupplyInternal</p>
         <p>Filecoin.StateVerifiedClientStatus</p>
         <p>Filecoin.StateVerifiedRegistryRootKey</p>
         <p>Filecoin.StateVerifierStatus</p>
-        <p>Filecoin.StateVMCirculatingSupplyInternal</p>
         <p>Filecoin.StateWaitMsg</p>
         <p>Filecoin.StateWaitMsgLimited</p>
+        <p>Filecoin.StorageAuthVerify</p>
         <p>Filecoin.SyncCheckBad</p>
         <p>Filecoin.SyncIncomingBlocks</p>
         <p>Filecoin.SyncState</p>
@@ -306,7 +321,7 @@ export default function Documentation() {
         <p>Filecoin.WalletBalance</p>
         <p>Filecoin.WalletValidateAddress</p>
         <p>Filecoin.WalletVerify</p>
-        <p>rpc.discover</p>
+        <p>rpc.discove</p>
       </OneColumn>
     </TwoColumns>
   )
