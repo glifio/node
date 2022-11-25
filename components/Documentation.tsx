@@ -321,7 +321,7 @@ export default function Documentation() {
         <p>Filecoin.WalletBalance</p>
         <p>Filecoin.WalletValidateAddress</p>
         <p>Filecoin.WalletVerify</p>
-        <p>rpc.discove</p>
+        <p>rpc.discover</p>
       </OneColumn>
     </TwoColumns>
   )
