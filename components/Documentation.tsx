@@ -149,6 +149,13 @@ export default function Documentation() {
             Wallaby: https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json
           </SmartLink>
         </WarningBox>
+        
+        <WarningBox>
+          Method <b>Filecoin.StateListMessages</b> is temporarily banned due to being harmful to the nodes.
+          <SmartLink href='https://github.com/filecoin-project/lotus/issues/9728'>
+            See the dedicated issue: https://github.com/filecoin-project/lotus/issues/9728
+          </SmartLink>
+        </WarningBox>
 
         <TitleWithSubtitle>
           <h2>Available API request methods</h2>
