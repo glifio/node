@@ -138,13 +138,16 @@ export default function Documentation() {
           Before going to Available API request methods, please, consider that{' '}
           <b>Filecoin.StateMarketDeals</b> operation data is available as a
           direct link to AWS s3. StateMarketDeals data is refreshing every 10
-          minutes:{' '}
+          minutes:
+          <br />
           <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
             Mainnet
           </SmartLink>
+          <br />
           <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json'>
             Calibration
           </SmartLink>
+          <br />
           <SmartLink href='https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json'>
             Wallaby
           </SmartLink>
@@ -153,6 +156,7 @@ export default function Documentation() {
         <WarningBox>
           Method <b>Filecoin.StateListMessages</b> is temporarily banned due to
           being harmful to the nodes.
+          <br />
           <SmartLink href='https://github.com/filecoin-project/lotus/issues/9728'>
             See the dedicated issue
           </SmartLink>
