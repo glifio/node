@@ -48,6 +48,9 @@ export default function Documentation() {
           <ButtonV2Link href='https://playground.open-rpc.org/?url=https://wallaby.node.glif.io'>
             Wallaby
           </ButtonV2Link>
+          <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.hyperspace.node.glif.io'>
+            Hyperspace
+          </ButtonV2Link>
         </FullWidthButtons>
 
         <FullWidthButtons>
@@ -56,8 +59,11 @@ export default function Documentation() {
           <ButtonV2Link href='https://calibration.filecoin.tools/'>
             Calibration
           </ButtonV2Link>
-          <ButtonV2Link href='http://wallaby.filecoin.tools/'>
+          <ButtonV2Link href='https://wallaby.filecoin.tools/'>
             Wallaby
+          </ButtonV2Link>
+          <ButtonV2Link href='https://hyperspace.filecoin.tools/'>
+            Hyperspace
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -124,6 +130,28 @@ export default function Documentation() {
             wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
         </FullWidthButtons>
+
+        <FullWidthButtons>
+          <span>
+            Lotus AWS API Gateway versions for Filecoin Hyperspace network:
+          </span>
+          <ButtonV2Link href='https://api.hyperspace.node.glif.io'>
+            api.hyperspace.node.glif.io - v0
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.hyperspace.node.glif.io/rpc/v0'>
+            api.hyperspace.node.glif.io/rpc/v0 -v0
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.hyperspace.node.glif.io/rpc/v1'>
+            api.hyperspace.node.glif.io/rpc/v1 - v1 (unstable)
+          </ButtonV2Link>
+        </FullWidthButtons>
+
+        <FullWidthButtons>
+          <span>Lotus Gateway endpoint for Hyperspace</span>
+          <ButtonV2Link href='wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0'>
+            wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
+          </ButtonV2Link>
+        </FullWidthButtons>
       </OneColumn>
 
       <OneColumn>
@@ -150,6 +178,10 @@ export default function Documentation() {
           <br />
           <SmartLink href='https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json'>
             Wallaby
+          </SmartLink>
+          <br />
+          <SmartLink href='https://marketdeals-hyperspace.s3.amazonaws.com/StateMarketDeals.json'>
+            Hyperspace
           </SmartLink>
         </WarningBox>
 
