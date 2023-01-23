@@ -124,6 +124,19 @@ export default function Documentation() {
             wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
         </FullWidthButtons>
+
+        <WarningBox>
+          If you are using Lotus Lite, use the following value instead:
+          <br />
+          <SmartLink href='wss://wss.hyperspace.node.glif.io/apigw/lotus/'>
+            wss://wss.hyperspace.node.glif.io/apigw/lotus/
+          </SmartLink>
+          <br />
+          <br />
+          <SmartLink href='https://github.com/filecoin-project/lotus/issues/10099'>
+            Read the dedicated issue
+          </SmartLink>
+        </WarningBox>
       </OneColumn>
 
       <OneColumn>
