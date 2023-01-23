@@ -59,11 +59,13 @@ export function EthRPC() {
           <p>eth_getFilterChanges</p>
           <p>eth_getFilterLogs</p>
           <p>eth_getLogs</p>
+          <p>eth_getMessageCidByTransactionHash</p>
           <p>eth_getStorageAt</p>
           <p>eth_getTransactionByBlockHashAndIndex</p>
           <p>eth_getTransactionByBlockNumberAndIndex</p>
           <p>eth_getTransactionByHash</p>
           <p>eth_getTransactionCount</p>
+          <p>eth_getTransactionHashByCid</p>
           <p>eth_getTransactionReceipt</p>
           <p>eth_maxPriorityFeePerGas</p>
           <p>eth_newBlockFilter</p>
@@ -92,11 +94,13 @@ export function EthRPC() {
           <p>Filecoin.EthGetFilterChanges</p>
           <p>Filecoin.EthGetFilterLogs</p>
           <p>Filecoin.EthGetLogs</p>
+          <p>Filecoin.EthGetMessageCidByTransactionHash</p>
           <p>Filecoin.EthGetStorageAt</p>
           <p>Filecoin.EthGetTransactionByBlockHashAndIndex</p>
           <p>Filecoin.EthGetTransactionByBlockNumberAndIndex</p>
           <p>Filecoin.EthGetTransactionByHash</p>
           <p>Filecoin.EthGetTransactionCount</p>
+          <p>Filecoin.EthGetTransactionHashByCid</p>
           <p>Filecoin.EthGetTransactionReceipt</p>
           <p>Filecoin.EthMaxPriorityFeePerGas</p>
           <p>Filecoin.EthNewBlockFilter</p>
