@@ -45,9 +45,6 @@ export default function Documentation() {
           <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.calibration.node.glif.io'>
             Calibration
           </ButtonV2Link>
-          <ButtonV2Link href='https://playground.open-rpc.org/?url=https://wallaby.node.glif.io'>
-            Wallaby
-          </ButtonV2Link>
           <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.hyperspace.node.glif.io'>
             Hyperspace
           </ButtonV2Link>
@@ -58,9 +55,6 @@ export default function Documentation() {
           <ButtonV2Link href='https://filecoin.tools/'>Mainnet</ButtonV2Link>
           <ButtonV2Link href='https://calibration.filecoin.tools/'>
             Calibration
-          </ButtonV2Link>
-          <ButtonV2Link href='https://wallaby.filecoin.tools/'>
-            Wallaby
           </ButtonV2Link>
           <ButtonV2Link href='https://hyperspace.filecoin.tools/'>
             Hyperspace
@@ -111,28 +105,6 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>
-            Lotus AWS API Gateway versions for Filecoin Wallaby🦘 network:
-          </span>
-          <ButtonV2Link href='https://wallaby.node.glif.io'>
-            wallaby.node.glif.io - v0
-          </ButtonV2Link>
-          <ButtonV2Link href='https://wallaby.node.glif.io/rpc/v0'>
-            wallaby.node.glif.io/rpc/v0 -v0
-          </ButtonV2Link>
-          <ButtonV2Link href='https://wallaby.node.glif.io/rpc/v1'>
-            wallaby.node.glif.io/rpc/v1 - v1 (unstable)
-          </ButtonV2Link>
-        </FullWidthButtons>
-
-        <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Wallaby🦘</span>
-          <ButtonV2Link href='wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0'>
-            wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0
-          </ButtonV2Link>
-        </FullWidthButtons>
-
-        <FullWidthButtons>
-          <span>
             Lotus AWS API Gateway versions for Filecoin Hyperspace network:
           </span>
           <ButtonV2Link href='https://api.hyperspace.node.glif.io'>
@@ -174,10 +146,6 @@ export default function Documentation() {
           <br />
           <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json'>
             Calibration
-          </SmartLink>
-          <br />
-          <SmartLink href='https://marketdeals-wallaby.s3.amazonaws.com/StateMarketDeals.json'>
-            Wallaby
           </SmartLink>
           <br />
           <SmartLink href='https://marketdeals-hyperspace.s3.amazonaws.com/StateMarketDeals.json'>

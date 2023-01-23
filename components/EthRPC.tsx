@@ -25,7 +25,7 @@ export function EthRPC() {
             favorite Ethereum wallets.
             <br />
             <br />
-            The planned FEVM Mainnet launch is February 2023, but the Wallaby
+            The planned FEVM Mainnet launch is February 2023, but the Hyperspace
             Testnet currently supports the FEVM.
           </InfoBox>
           <FullWidthButtons>
@@ -37,7 +37,7 @@ export function EthRPC() {
         <OneColumn>
           <TitleWithSubtitle>
             <h2>
-              Available Ethereum API request methods for Wallaby🦘 endpoint
+              Available Ethereum API request methods for Hyperspace endpoint
             </h2>
             <SmartLink href='https://github.com/filecoin-project/ref-fvm/issues/854'>
               See Lotus Ethereum JSON-RPC API documentation
