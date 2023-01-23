@@ -57,7 +57,7 @@ export function Landing() {
               <Badge color='purple' text='Brand new' />
             </ButtonBadgeWrapper>
             <ButtonV2Link large href='/eth-rpc'>
-              Ethereum JSON RPC Support on the Wallaby testnet
+              Ethereum JSON RPC Support on the Hyperspace testnet
             </ButtonV2Link>
           </FullWidthButtons>
         </LandingPageContent>
