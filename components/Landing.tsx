@@ -54,10 +54,16 @@ export function Landing() {
           </ButtonsHiddenOnMobile>
           <FullWidthButtons>
             <ButtonBadgeWrapper>
-              <Badge color='purple' text='Brand new' />
+              <Badge
+                color='purple'
+                text='FEVM is available on the Mainnet! You are welcome to try it right here, right now!'
+              />
             </ButtonBadgeWrapper>
             <ButtonV2Link large href='/eth-rpc'>
-              Ethereum JSON RPC Support in the Filecoin network
+              Ethereum JSON RPC Support
+            </ButtonV2Link>
+            <ButtonV2Link large href='/filecoin-rpc'>
+              Filecoin JSON RPC Support
             </ButtonV2Link>
           </FullWidthButtons>
         </LandingPageContent>
