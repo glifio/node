@@ -60,7 +60,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus AWS API Gateway versions for Filecoin Mainnet:</span>
+          <span>Lotus Gateway versions for Filecoin Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v1
           </ButtonV2Link>
@@ -73,7 +73,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Filecoin Mainnet</span>
+          <span>Lotus Gateway wss endpoints for Filecoin Mainnet:</span>
           <ButtonV2Link href='wss://wss.node.glif.io/apigw/lotus/rpc/v0'>
             wss://wss.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
