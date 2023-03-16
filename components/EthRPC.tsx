@@ -15,18 +15,17 @@ export function EthRPC() {
       <TwoColumns>
         <OneColumn>
           <InfoBox>
-            The FEVM is coming soon to the Filecoin network!
+            The FEVM is on the Filecoin network!
             <br />
             <br />
-            The FEVM has been deployed to the Filecoin network since Pi day 3/14/2023!
-            The FEVM brings complete EVM compatibility to the Filecoin network.
-            Developers can interact with Filecoin in the same way they do with EVM chains like Ethereum.
-            Developers can reuse their favorite tooling from the Ethereum ecosystem,
-            and users can reuse their favorite Ethereum wallets.
+            The FEVM has been deployed to the Filecoin network since Pi day -
+            3/14/2023! The FEVM brings complete EVM compatibility to the
+            Filecoin network. Developers can interact with Filecoin in the same
+            way they do with EVM chains like Ethereum. Developers can reuse
+            their favorite tooling from the Ethereum ecosystem, and users can
+            reuse their favorite Ethereum wallets.
             <br />
             <br />
-            The planned FEVM Mainnet launch is February 2023, but the Hyperspace
-            Testnet currently supports the FEVM.
           </InfoBox>
           <FullWidthButtons>
             <ButtonV2Link large href='/'>

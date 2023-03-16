@@ -147,15 +147,15 @@ export default function Documentation() {
           direct link to AWS s3. StateMarketDeals data is refreshing every 10
           minutes:
           <br />
-          <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json'>
+          <SmartLink href='https://marketdeals.s3.amazonaws.com/StateMarketDeals.json.zst'>
             Mainnet
           </SmartLink>
           <br />
-          <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json'>
+          <SmartLink href='https://marketdeals-calibration.s3.amazonaws.com/StateMarketDeals.json.zst'>
             Calibration
           </SmartLink>
           <br />
-          <SmartLink href='https://marketdeals-hyperspace.s3.amazonaws.com/StateMarketDeals.json'>
+          <SmartLink href='https://marketdeals-hyperspace.s3.amazonaws.com/StateMarketDeals.json.zst'>
             Hyperspace
           </SmartLink>
         </WarningBox>
