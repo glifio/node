@@ -60,15 +60,15 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>HTTPS API Endpoints https:// for Filecoin Mainnet:</span>
+          <span>HTTPS API endpoints for Filecoin Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
-            api.node.glif.io - v1
+            https://api.node.glif.io - v1
           </ButtonV2Link>
           <ButtonV2Link href='https://api.node.glif.io/rpc/v0'>
-            api.node.glif.io/rpc/v0 - v0
+            https://api.node.glif.io/rpc/v0 - v0
           </ButtonV2Link>
           <ButtonV2Link href='https://api.node.glif.io/rpc/v1'>
-            api.node.glif.io/rpc/v1 - v1 (unstable)
+            https://api.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -83,17 +83,15 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>
-            HTTPS API Endpoints https:// for Filecoin Calibration network:
-          </span>
+          <span>HTTPS API endpoints for Filecoin Calibration network:</span>
           <ButtonV2Link href='https://api.calibration.node.glif.io'>
-            api.calibration.node.glif.io - v1
+            https://api.calibration.node.glif.io - v1
           </ButtonV2Link>
           <ButtonV2Link href='https://api.calibration.node.glif.io/rpc/v0'>
-            api.calibration.node.glif.io/rpc/v0 - v0
+            https://api.calibration.node.glif.io/rpc/v0 - v0
           </ButtonV2Link>
           <ButtonV2Link href='https://api.calibration.node.glif.io/rpc/v1'>
-            api.calibration.node.glif.io/rpc/v1 - v1 (unstable)
+            https://api.calibration.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -105,17 +103,15 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>
-            HTTPS API Endpoints https:// for Filecoin Hyperspace network:
-          </span>
+          <span>HTTPS API endpoints for Filecoin Hyperspace network:</span>
           <ButtonV2Link href='https://api.hyperspace.node.glif.io'>
-            api.hyperspace.node.glif.io - v1
+            https://api.hyperspace.node.glif.io - v1
           </ButtonV2Link>
           <ButtonV2Link href='https://api.hyperspace.node.glif.io/rpc/v0'>
-            api.hyperspace.node.glif.io/rpc/v0 - v0
+            https://api.hyperspace.node.glif.io/rpc/v0 - v0
           </ButtonV2Link>
           <ButtonV2Link href='https://api.hyperspace.node.glif.io/rpc/v1'>
-            api.hyperspace.node.glif.io/rpc/v1 - v1 (unstable)
+            https://api.hyperspace.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -127,17 +123,15 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>
-            Lotus AWS API Gateway versions for Filecoin Spacenet network:
-          </span>
+          <span>HTTPS API endpoints for Filecoin Spacenet network:</span>
           <ButtonV2Link href='https://api.spacenet.node.glif.io'>
-            api.spacenet.node.glif.io - v1
+            https://api.spacenet.node.glif.io/ - v1
           </ButtonV2Link>
           <ButtonV2Link href='https://api.spacenet.node.glif.io/rpc/v0'>
-            api.spacenet.node.glif.io/rpc/v0 - v0
+            https://api.spacenet.node.glif.io/rpc/v0 - v0
           </ButtonV2Link>
           <ButtonV2Link href='https://api.spacenet.node.glif.io/rpc/v1'>
-            api.spacenet.node.glif.io/rpc/v1 - v1 (unstable)
+            https://api.spacenet.node.glif.io/rpc/v1 - v1 (unstable)
           </ButtonV2Link>
         </FullWidthButtons>
 
@@ -146,7 +140,13 @@ export default function Documentation() {
           <br />
           <SmartLink href='wss://wss.hyperspace.node.glif.io/apigw/lotus/'>
             wss://wss.hyperspace.node.glif.io/apigw/lotus/
+          </SmartLink>
+          <br />
+          <SmartLink href='wss://wss.mainnet.node.glif.io/apigw/lotus/'>
             wss://wss.mainnet.node.glif.io/apigw/lotus/
+          </SmartLink>
+          <br />
+          <SmartLink href='wss://wss.calibration.node.glif.io/apigw/lotus/'>
             wss://wss.calibration.node.glif.io/apigw/lotus/
           </SmartLink>
           <br />
