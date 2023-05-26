@@ -126,6 +126,21 @@ export default function Documentation() {
           </ButtonV2Link>
         </FullWidthButtons>
 
+        <FullWidthButtons>
+          <span>
+            Lotus AWS API Gateway versions for Filecoin Spacenet network:
+          </span>
+          <ButtonV2Link href='https://api.spacenet.node.glif.io'>
+            api.spacenet.node.glif.io - v1
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.spacenet.node.glif.io/rpc/v0'>
+            api.spacenet.node.glif.io/rpc/v0 - v0
+          </ButtonV2Link>
+          <ButtonV2Link href='https://api.spacenet.node.glif.io/rpc/v1'>
+            api.spacenet.node.glif.io/rpc/v1 - v1 (unstable)
+          </ButtonV2Link>
+        </FullWidthButtons>
+
         <WarningBox>
           If you are using Lotus Lite, use the following value instead:
           <br />
