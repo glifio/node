@@ -34,6 +34,7 @@ export function FilecoinRPC() {
             <b>&quot;Content-Type&quot;: &quot;application/json&quot;</b>
           </InfoBox>
 
+          <p>Filecoin.ChainGetBlock</p>
           <p>Filecoin.ChainGetBlockMessages</p>
           <p>Filecoin.ChainGetGenesis</p>
           <p>Filecoin.ChainGetMessage</p>
@@ -83,7 +84,9 @@ export function FilecoinRPC() {
           <p>Filecoin.EthUnsubscribe</p>
           <p>Filecoin.GasEstimateGasPremium</p>
           <p>Filecoin.GasEstimateMessageGas</p>
+          <p>Filecoin.MinerGetBaseInfo</p>
           <p>Filecoin.MpoolGetNonce</p>
+          <p>Filecoin.MpoolPending</p>
           <p>Filecoin.MpoolPush</p>
           <p>Filecoin.MsigGetAvailableBalance</p>
           <p>Filecoin.MsigGetPending</p>
@@ -100,6 +103,7 @@ export function FilecoinRPC() {
           <p>Filecoin.StateListMiners</p>
           <p>Filecoin.StateLookupID</p>
           <p>Filecoin.StateMarketBalance</p>
+          <p>Filecoin.StateMarketParticipants</p>
           <p>Filecoin.StateMarketStorageDeal</p>
           <p>Filecoin.StateMinerAvailableBalance</p>
           <p>Filecoin.StateMinerDeadlines</p>
@@ -114,10 +118,11 @@ export function FilecoinRPC() {
           <p>Filecoin.StateReadState</p>
           <p>Filecoin.StateReplay</p>
           <p>Filecoin.StateSearchMsg</p>
+          <p>Filecoin.StateSearchMsgLimited</p>
           <p>Filecoin.StateSectorGetInfo</p>
+          <p>Filecoin.StateVMCirculatingSupplyInternal</p>
           <p>Filecoin.StateVerifiedClientStatus</p>
           <p>Filecoin.StateVerifierStatus</p>
-          <p>Filecoin.StateVMCirculatingSupplyInternal</p>
           <p>Filecoin.StateWaitMsg</p>
           <p>Filecoin.Version</p>
           <p>Filecoin.WalletBalance</p>

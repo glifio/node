@@ -60,7 +60,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway versions for Filecoin Mainnet:</span>
+          <span>HTTPS API Endpoints https:// for Filecoin Mainnet:</span>
           <ButtonV2Link href='https://api.node.glif.io'>
             api.node.glif.io - v1
           </ButtonV2Link>
@@ -73,7 +73,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway wss endpoints for Filecoin Mainnet:</span>
+          <span>WSS endpoints for Filecoin Mainnet:</span>
           <ButtonV2Link href='wss://wss.node.glif.io/apigw/lotus/rpc/v0'>
             wss://wss.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
@@ -84,7 +84,7 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>
-            Lotus API AWS Gateway versions for Filecoin Calibration network:
+            HTTPS API Endpoints https:// for Filecoin Calibration network:
           </span>
           <ButtonV2Link href='https://api.calibration.node.glif.io'>
             api.calibration.node.glif.io - v1
@@ -98,7 +98,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Filecoin Calibration</span>
+          <span>WSS endpoint for Filecoin Calibration</span>
           <ButtonV2Link href='wss://wss.calibration.node.glif.io'>
             wss://wss.calibration.node.glif.io
           </ButtonV2Link>
@@ -106,7 +106,7 @@ export default function Documentation() {
 
         <FullWidthButtons>
           <span>
-            Lotus AWS API Gateway versions for Filecoin Hyperspace network:
+            HTTPS API Endpoints https:// for Filecoin Hyperspace network:
           </span>
           <ButtonV2Link href='https://api.hyperspace.node.glif.io'>
             api.hyperspace.node.glif.io - v1
@@ -120,7 +120,7 @@ export default function Documentation() {
         </FullWidthButtons>
 
         <FullWidthButtons>
-          <span>Lotus Gateway endpoint for Hyperspace</span>
+          <span>WSS endpoint for Hyperspace</span>
           <ButtonV2Link href='wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0'>
             wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
           </ButtonV2Link>
@@ -131,6 +131,8 @@ export default function Documentation() {
           <br />
           <SmartLink href='wss://wss.hyperspace.node.glif.io/apigw/lotus/'>
             wss://wss.hyperspace.node.glif.io/apigw/lotus/
+            wss://wss.mainnet.node.glif.io/apigw/lotus/
+            wss://wss.calibration.node.glif.io/apigw/lotus/
           </SmartLink>
           <br />
           <br />
