@@ -12,6 +12,7 @@ import {
 import NodePage from './NodePage'
 import Documentation from './Documentation'
 import { ButtonBadgeWrapper, ButtonsHiddenOnMobile } from './Helpers'
+import Link from 'next/link'
 
 export function Landing() {
   return (
@@ -31,9 +32,11 @@ export function Landing() {
             I am the Glif API Node - a publicly available hosted endpoint of
             Lotus (the most popular client for the Filecoin network). Feel free
             to make a POST request against this URL using the JSON-RPC model to
-            check it out. You can find the list of available RPC requests at the
-            bottom of this page. Please note that a publicly available hosted
-            endpoint guarantees <b>only 2000 of the latest blocks.</b>
+            check it out. You can find the list of available RPC requests{' '}
+            <Link href='/filecoin-rpc'>here</Link> and{' '}
+            <Link href='/eth-rpc'>here</Link>. Please note that a publicly
+            available hosted endpoint guarantees{' '}
+            <b>only 2000 of the latest blocks.</b>
           </p>
           <p>
             If this version does not suit your needs or you want to get a
@@ -51,12 +54,21 @@ export function Landing() {
             >
               Check out the documenation
             </ButtonV2>
+            <ButtonV2
+              large
+              onClick={() => {
+                const el = document.getElementById('endpoints')
+                if (el) el.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
+              Check out available endpoints
+            </ButtonV2>
           </ButtonsHiddenOnMobile>
           <FullWidthButtons>
             <ButtonBadgeWrapper>
               <Badge
                 color='purple'
-                text='FEVM is available on the Mainnet! You are welcome to try it right here, right now!'
+                text='Spacenet is now available! You are welcome to try it right here, right now!'
               />
             </ButtonBadgeWrapper>
             <ButtonV2Link large href='/eth-rpc'>
