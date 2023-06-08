@@ -143,7 +143,7 @@ export default function Documentation() {
             </td>
             <td>
               <ButtonV2 onClick={copyToClipboard}>
-                https://api.spacenet.node.glif.io/rpc/v0
+                https://api.spacenet.node.glif.io/rpc/v1
               </ButtonV2>
             </td>
           </tr>
@@ -200,7 +200,7 @@ export default function Documentation() {
             </td>
             <td>
               <ButtonV2 onClick={copyToClipboard}>
-                wss://wss.spacenet.node.glif.io/apigw/lotus/rpc/v0
+                wss://wss.spacenet.node.glif.io/apigw/lotus/rpc/v1
               </ButtonV2>
             </td>
           </tr>
