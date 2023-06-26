@@ -71,14 +71,6 @@ export default function Documentation() {
             <br />
           </WarningBox>
           <br />
-          <WarningBox>
-            Method <b>Filecoin.StateListMessages</b> is temporarily banned due
-            to being harmful to the nodes.
-            <br />
-            <SmartLink href='https://github.com/filecoin-project/lotus/issues/9728'>
-              See the dedicated issue
-            </SmartLink>
-          </WarningBox>
         </OneColumn>
       </TwoColumns>
       <OneColumn>
