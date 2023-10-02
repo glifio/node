@@ -5,13 +5,12 @@ import {
   LandingPageColumns,
   LandingPageContent,
   SmartLink,
-  Badge,
   ButtonV2Link
 } from '@glif/react-components'
 
 import NodePage from './NodePage'
 import Documentation from './Documentation'
-import { ButtonBadgeWrapper, ButtonsHiddenOnMobile } from './Helpers'
+import { ButtonsHiddenOnMobile } from './Helpers'
 import Link from 'next/link'
 
 export function Landing() {
@@ -65,12 +64,6 @@ export function Landing() {
             </ButtonV2>
           </ButtonsHiddenOnMobile>
           <FullWidthButtons>
-            <ButtonBadgeWrapper>
-              <Badge
-                color='purple'
-                text='Spacenet is now available! You are welcome to try it right here, right now!'
-              />
-            </ButtonBadgeWrapper>
             <ButtonV2Link large href='/eth-rpc'>
               Ethereum JSON RPC Support
             </ButtonV2Link>
