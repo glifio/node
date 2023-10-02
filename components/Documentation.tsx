@@ -82,7 +82,7 @@ export default function Documentation() {
             <th>Calibnet</th>
           </tr>
           <tr>
-            <th colSpan={4}>1. HTTPS Endpoints</th>
+            <th colSpan={3}>1. HTTPS Endpoints</th>
           </tr>
           <tr>
             <td>HTTPS default (v1)</td>
@@ -124,7 +124,7 @@ export default function Documentation() {
             </td>
           </tr>
           <tr>
-            <th colSpan={4}>2. WSS Endpoints</th>
+            <th colSpan={3}>2. WSS Endpoints</th>
           </tr>
           <tr>
             <td>WSS for Lotus Lite</td>
@@ -166,7 +166,7 @@ export default function Documentation() {
             </td>
           </tr>
           <tr>
-            <th colSpan={4}>3. Miscellaneous Endpoints</th>
+            <th colSpan={3}>3. Miscellaneous Endpoints</th>
           </tr>
           <tr>
             <td>Open-RPC Playground</td>
@@ -193,7 +193,6 @@ export default function Documentation() {
                 Calibnet CID Checker
               </ButtonV2Link>
             </td>
-            <td>Not applicable at the time</td>
           </tr>
           <tr>
             <td>StateMarketDeals Data</td>
@@ -207,7 +206,6 @@ export default function Documentation() {
                 Calibnet StateMarketDeals Data
               </ButtonV2Link>
             </td>
-            <td>Not applicable at the time</td>
           </tr>
         </table>
       </OneColumn>
