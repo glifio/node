@@ -80,7 +80,6 @@ export default function Documentation() {
             <th>Endpoint</th>
             <th>Mainnet</th>
             <th>Calibnet</th>
-            <th>Spacenet</th>
           </tr>
           <tr>
             <th colSpan={4}>1. HTTPS Endpoints</th>
@@ -97,11 +96,6 @@ export default function Documentation() {
                 https://api.calibration.node.glif.io/
               </ButtonV2>
             </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                https://api.spacenet.node.glif.io/
-              </ButtonV2>
-            </td>
           </tr>
           <tr>
             <td>HTTPS RPC v0 (stable)</td>
@@ -115,27 +109,17 @@ export default function Documentation() {
                 https://api.calibration.node.glif.io/rpc/v0
               </ButtonV2>
             </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                https://api.spacenet.node.glif.io/rpc/v0
-              </ButtonV2>
-            </td>
           </tr>
           <tr>
             <td>HTTPS RPC v1 (unstable)</td>
             <td>
               <ButtonV2 onClick={copyToClipboard}>
-                https://api.calibration.node.glif.io/rpc/v1
+                https://api.node.glif.io/rpc/v1
               </ButtonV2>
             </td>
             <td>
               <ButtonV2 onClick={copyToClipboard}>
                 https://api.calibration.node.glif.io/rpc/v1
-              </ButtonV2>
-            </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                https://api.spacenet.node.glif.io/rpc/v1
               </ButtonV2>
             </td>
           </tr>
@@ -154,11 +138,6 @@ export default function Documentation() {
                 wss://wss.calibration.node.glif.io/apigw/lotus
               </ButtonV2>
             </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                wss://wss.spacenet.node.glif.io/apigw/lotus
-              </ButtonV2>
-            </td>
           </tr>
           <tr>
             <td>WSS RPC v0 (stable)</td>
@@ -172,11 +151,6 @@ export default function Documentation() {
                 wss://wss.calibration.node.glif.io/apigw/lotus/rpc/v0
               </ButtonV2>
             </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                wss://wss.spacenet.node.glif.io/apigw/lotus/rpc/v0
-              </ButtonV2>
-            </td>
           </tr>
           <tr>
             <td>WSS RPC v1 (unstable)</td>
@@ -188,11 +162,6 @@ export default function Documentation() {
             <td>
               <ButtonV2 onClick={copyToClipboard}>
                 wss://wss.calibration.node.glif.io/apigw/lotus/rpc/v1
-              </ButtonV2>
-            </td>
-            <td>
-              <ButtonV2 onClick={copyToClipboard}>
-                wss://wss.spacenet.node.glif.io/apigw/lotus/rpc/v1
               </ButtonV2>
             </td>
           </tr>
@@ -209,11 +178,6 @@ export default function Documentation() {
             <td>
               <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.calibration.node.glif.io'>
                 Calibnet Playground
-              </ButtonV2Link>
-            </td>
-            <td>
-              <ButtonV2Link href='https://playground.open-rpc.org/?url=https://api.spacenet.node.glif.io'>
-                Spacenet Playground
               </ButtonV2Link>
             </td>
           </tr>
