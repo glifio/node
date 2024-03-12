@@ -71,6 +71,15 @@ export default function Documentation() {
             <br />
           </WarningBox>
           <br />
+          <WarningBox>
+            Starting March 11th, 2024 we rate-limit unauthorized requests to our
+            public endpoints. To create an authorization token, navigate to the{' '}
+            <SmartLink href='https://auth.node.glif.io'>auth app</SmartLink>,
+            create a token for your desired endpoint and then start using it by
+            putting it in the Authorization header of your requests.
+            <br />
+          </WarningBox>
+          <br />
         </OneColumn>
       </TwoColumns>
       <OneColumn>
